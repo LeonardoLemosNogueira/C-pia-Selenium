@@ -1,0 +1,2 @@
+1. Arquivo ExcelTest.py utilizado para rodar todos os testes em paralelo, e retorna uma tabela com os resultados.
+2. Arquivo filewrite.py utilizado para criar um arquivo com os resultados dos testes feitos em ExcelTest.py.
