@@ -6,7 +6,7 @@ from Testes.TestesScreen import EmptyScreenMenuItemDetail
 #A VARIAVEL tests É UM ARRAY COM TODOS OS TESTES.
 tests = [EmptyScreenMenuItemDetail.EmptyScreenMenuItemDetail.Testar, CreateMenuWithSameName.CreateMenuWithSameName.Testar , PermissionGroupDefaultNotChecked.PermissionGroupDefaultNotChecked.Testar, SearchPromotionGroup.SearchPromotionGroup.Testar]
 # Para executar um teste específico basta adicionar sua classe e seu método no array da linha abaixo, descomentar a linha e comentar a variável da linha 8.
-# tests = [] 
+# tests = [EmptyScreenMenuItemDetail.EmptyScreenMenuItemDetail.Testar] 
 
 #VARIÁVEIS DE EMAIL.
 

@@ -140,3 +140,6 @@ for p in Nome:
     apiJSON = requests.post(url, data=json.dumps(obj_issue), headers=newHeaders,
                             auth=HTTPBasicAuth(config_var.auth_username, config_var.auth_password))
     print(apiJSON)
+
+if Nome != []:
+    raise Exception("Existem testes reprovados!")
